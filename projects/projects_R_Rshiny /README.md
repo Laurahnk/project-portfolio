@@ -11,3 +11,6 @@ Evaluate tab: AUC, ROC curve, error rate
 Predict tab: user inputs → default probability + simple risk label
 
 Lightweight stack (Shiny, ggplot2, dplyr, readr, pROC, DT)
+
+
+You can see how to use our application Rshiny with this link : https://youtu.be/ZwqK_93ucUY
