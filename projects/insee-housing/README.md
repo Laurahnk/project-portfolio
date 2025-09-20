@@ -1,0 +1,1 @@
+Build a reliable micro-dataset from INSEE housing surveys (~10M rows) to analyse territorial patterns in properties changing owners and their links with local salary levels. Deliver descriptive indicators and econometric results for policy use.
