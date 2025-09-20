@@ -11,7 +11,7 @@ library(DT)
 library(shinyjs)
 
 # Chargement des données
-df <- read_excel("C:/Users/hanil/Desktop/Projet Rshiny/default of credit card clients.xls", skip = 1)
+df <- read_excel("C:\\Users\\hanil\\Desktop\\Dossier SHINY\\test\\default_of_credit_card_clients.xls", skip = 1)
 df <- df %>%
   rename(default = `default payment next month`) %>%
   select(-ID) %>%
@@ -171,7 +171,7 @@ ui <- fluidPage(
                                  sliderInput("PAY_5", "Statut du remboursement en août 2005 (PAY_5)", min = -2, max = 8, value = 0),
                                  sliderInput("PAY_6", "Statut du remboursement en septembre 2005 (PAY_6)", min = -2, max = 8, value = 0),
                                  
-                                
+                                 
                                  numericInput("BILL_AMT1", "Montant des factures mensuelles en septembre 2005 (BILL_AMT1)", value = 0),
                                  numericInput("BILL_AMT2", "Montant des factures mensuelles en août 2005 (BILL_AMT2)", value = 0),
                                  numericInput("BILL_AMT3", "Montant des factures mensuelles en juillet 2005 (BILL_AMT3)", value = 0),
