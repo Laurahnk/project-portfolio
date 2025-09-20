@@ -1,1 +1,1 @@
-Mini project (Master ESA) explaining how Maximum Likelihood Estimation (MLE) relates to Gradient Descent/SGD, with a simple Python illustration of optimization on a toy “radio frequency” example
+Mini project (Master ESA) explaining how Maximum Likelihood Estimation (MLE) relates to Gradient Descent/SGD, with a simple Python illustration of optimization on a toy “radio frequency” example. You can see it on Youtube : https://youtu.be/SLWQONRlvdQ?si=k1i4tV592gwVvflG
